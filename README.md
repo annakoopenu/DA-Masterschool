@@ -1,4 +1,6 @@
 # DA-Masterschool
+https://app.masterschool.com/student/enrollment/home
+
 My notes on Data Analysis course by Masterschool
 https://campus.masterschool.com/courses/204
 My students guide
