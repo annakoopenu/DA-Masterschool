@@ -1,7 +1,8 @@
 # DA-Masterschool
 My notes on Data Analysis course by Masterschool
 https://campus.masterschool.com/courses/204
-
+My students guide
+https://masterschool.notion.site/Your-Student-Guide-9ec2d2b95a6549818e94c6fd484f3cbb
 
 
 ## DA-00-Learning How To Learn
