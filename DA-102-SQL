@@ -1,0 +1,80 @@
+https://classroom.udacity.com/paid-courses/cd12071
+
+-- Basic SQL:
+SELECT & FROM
+LIMIT
+ORDER BY
+WHERE
+Basic arithmetic operations
+LIKE
+IN
+NOT
+AND & BETWEEN & OR
+
+-- JOINS
+
+Foreign Key (FK)
+Primary Key (PK)
+
+JOIN	is an INNER JOIN that only pulls data that exists in both tables.
+LEFT JOIN	is a JOIN that pulls all the data that exists in both tables, as well as all of the rows from the table in the FROM even if they do not exist in the JOIN statement.
+RIGHT JOIN	is a JOIN pulls all the data that exists in both tables, as well as all of the rows from the table in the JOIN even if they do not exist in the FROM statement.
+
+
+Partition by	A subclause of the OVER clause. Similar to GROUP BY.
+
+
+-- SQL Aggregations 
+
+COUNT
+SUM
+MIN & MAX
+AVG
+GROUP BY
+DISTINCT
+HAVING
+
+-- DATE functions
+DATE_TRUNC 
+DATE_PART
+https://mode.com/blog/date-trunc-sql-timestamp-function-count-on/
+
+-- CASE statements
+CASE WHEN total > 500 THEN 'Over 500'
+            WHEN total > 300 THEN '301 - 500'
+            WHEN total > 100 THEN '101 - 300'
+            ELSE '100 or under' END AS total_group
+            
+
+Deal with NULL values
+Create aggregations in your SQL Queries including
+
+
+
+CAST()
+to convert a value into a specified datatype
+Example: SELECT CAST(10.1 AS int);
+Answer: 10
+
+COALESCE() 
+function returns the first non-null value in a list
+Example: SELECT COALESCE(NULL, NULL, NULL, 1, NULL, 2);
+Answer: 1
+
+CURRENT_USER 
+function returns the name of the current user in the SQL Server database
+Example: SELECT CURRENT_USER;
+Answer: demo
+
+IIF() 
+function returns a value if a condition is TRUE, or another value if a condition is FALSE
+Syntax: IIF(condition, value_if_true, value_if_false)
+Example: SELECT IIF('hi' = 'bye', 'YES', 'NO');
+Answer: NO
+
+ISNULL()
+function returns a specified value if the expression is NULL. 
+If the expression is NOT NULL, this function returns the expression.
+Syntax: ISNULL(expression, value)
+Example: SELECT ISNULL('Hello world', 'Bye');
+Answer: Hello world
