@@ -46,6 +46,29 @@ CASE WHEN total > 500 THEN 'Over 500'
             ELSE '100 or under' END AS total_group
             
 
+-- VIEW
+CREATE VIEW <VIEW_NAME>
+AS
+SELECT …
+FROM …
+WHERE …
+
+SELECT MAX(x)
+FROM <VIEW_NAME>;
+
+-- WITH
+WITH events AS (
+          SELECT DATE_TRUNC('day',occurred_at) AS day, 
+                        channel, COUNT(*) as events
+          FROM web_events 
+          GROUP BY 1,2)
+
+SELECT channel, AVG(events) AS average_events
+FROM events
+GROUP BY channel
+ORDER BY 2 DESC;
+
+
 Deal with NULL values
 Create aggregations in your SQL Queries including
 
