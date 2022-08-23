@@ -10,3 +10,18 @@ Learning Objectives
 
 Seeing theory https://seeing-theory.brown.edu/
 
+Probability
+Binomial Distribution
+Conditional Probability
+Bayes Rule
+Python Probability Practice
+
+The probability of any event must be between 0 and 1, inclusive.
+The probability of the complement event is 1 minus the probability of an event. That is the probability of all other possible events is 1 minus the probability of an event itself. Therefore, the sum of all possible events is equal to 1.
+If our events are independent, then the probability of the string of possible events is the product of those events. That is the probability of one event AND the next AND the next event is the product of those events. Example P x P x P
+If we are trying to figure out the probability of dependant events, like what is the probability that it will rain tomorrow if it rained today, do not follow these same rules.
+
+Binomial Distribution
+
+Conditional Probability
+https://setosa.io/conditional/
