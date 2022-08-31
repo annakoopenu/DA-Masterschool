@@ -10,9 +10,9 @@ Business Process Flow: Marketing, Growth
 Customer Journey
 Marketing Funnel / Conversion Funnel - Awarness --> Interest --> Desire --> Conversion
 
-CTR - Click Through Rate - clicks / saw the add
-CPC - Cost Per Click - cost of addvertising / num of clicks
-CPL - Cost Per Lead - cost of advertising / num of leads
+CTR - Click Through Rate  <clicks / people s the add>
+CPC - Cost Per Click <cost of addvertising / num of clicks>
+CPL - Cost Per Lead <cost of advertising / num of leads
 CAC - Customer Acquisition Cost (1) sales & marketing costs / num of converted customers
                                 (2) prior month marketing cost + advertising costs / num of converted customers 
 CPA - Cost Per Acquisition (=CAC but focused on sales leads, not actual.. = =CPL, but more expences counted)
@@ -20,19 +20,34 @@ CPA - Cost Per Acquisition (=CAC but focused on sales leads, not actual.. = =CPL
 Optimizing Marketing Funnel - identifying at what level of the funnel your customer loss is the greatest
 
  
-
 Lifetime Value
+ Focus on high-value customers – those that will stay for the long-term and continue to generate revenue for the company.
+
+- Purchase Cycle <The time increment adopted for business calculations>
+- Total Sale Revenue Per Cycle <Revenue earned from a customer per purchase cycle>
+- Number of Sales Per Purchase Cycle <Number of times customer buys during the purchase cycle>
+- Cost Per Acquisition <Cost of marketing and sales)/ number of new leads>
+- Expected Retention Time - Amount of time (measured in purchasing cycles) you expect to retain the customer.
+- Average Sale Revenue - (Total customer revenue/ Number of purchases in the cycle) OR Average revenue received from the customer per transaction during the cycle
+- Profit Margin Per Customer -  ((Average Sale - Average Cost of Sale) / Average Sale)
+
+LTV = 
  
-Focus on high-value customers – those that will stay for the long-term and continue to generate revenue for the company.
-1.Purchase Cycle - The time increment adopted for business calculations
-2.Total Sale Revenue Per Cycle - Revenue earned from a customer per purchase cycle
-3.Number of Sales Per Purchase Cycle -  Number of times customer buys during the purchase cycle
-4.Cost Per Acquisition - (Cost of marketing and sales)/ number of new leads
-5.Expected Retention Time - Amount of time (measured in purchasing cycles) you expect to retain the customer.
-6.Average Sale Revenue - (Total customer revenue/ Number of purchases in the cycle) OR Average revenue received from the customer per transaction during the cycle
-7.Profit Margin Per Customer -  ((Average Sale - Average Cost of Sale) / Average Sale)
-LTV = (6)x(2)x(5) / (6) 
- 
+Example
+
+Purchase Cycle 1
+Total Sales Revenue per Cycle 70
+Number of Sales per Purchase Cycle 1
+Cost of Acquisition 25
+Expected Retention time 364
+#years x 52 weeks
+Average Sales Revenue 70
+70 / 1 transaction per cycle
+Profit Margin Per Customer .64 --> (70-25) / 70
+LTV calculated to be $16,380
+70 x 1 x 364 x.64
+
+
 
  16. Solution for Lifetime Value Exercise
  17. Interpreting Lifetime Value
